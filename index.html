@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Free Store</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>My Free Store</h1>
+    <a href="cart.html">🛒 Cart</a>
+  </header>
+
+  <main class="product-list">
+    <div class="product">
+      <img src="https://via.placeholder.com/150" alt="Product 1"/>
+      <h2>Product 1</h2>
+      <p>$10</p>
+      <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/150" alt="Product 2"/>
+      <h2>Product 2</h2>
+      <p>$15</p>
+      <button onclick="addToCart('Product 2', 15)">Add to Cart</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
